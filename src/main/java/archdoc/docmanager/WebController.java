@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class WebController {
+
     //vamos ter um desse pra cada html. esse aqui é o do form
     @RequestMapping("/contato")
     public String siteContato(Model modelo) {
